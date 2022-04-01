@@ -1,0 +1,48 @@
+body {
+    overflow-x: hidden;
+    font-family: 'tahoma';
+    background-color: #242222;
+    color: #ffbbc6
+}
+
+#head {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#morgan {
+    position: absolute;
+    border: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    color: #747b81;
+    padding: 0%;
+}
+
+#boom {
+    position: absolute;
+    padding: 0%;
+    width: 300px;
+    height: 173px;
+    opacity: 0;
+}
+
+#head:hover {
+    transition:  5s ease-in-out;
+    margin-top: 15em;
+    transform: scale(2);
+} 
+
+#boom:hover {
+    animation-name: boom;
+    animation-duration: 100s;
+}
+
+
+@keyframes boom {
+    4%{opacity: 0;}
+
+    5%{opacity: 1;}
+}
