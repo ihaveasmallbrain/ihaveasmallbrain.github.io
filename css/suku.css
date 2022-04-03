@@ -4,7 +4,9 @@ body {
     background-color: #242222;
     color: #ffbbc6
 }
-
+header {
+    text-align: center;
+}
 #head {
     position: relative;
     display: flex;
